@@ -37,5 +37,13 @@
             &copy;2014 <a href="http://zhu.li">Leigh Zhu</a>
         </footer>
     </div>
+<script>
+    function supportsSVG() {
+      return !! document.createElementNS && !! document.createElementNS('http://www.w3.org/2000/svg','svg').createSVGRect;  
+    }
+    if(!supportsSVG()) {
+        document.getElementsByTagName('body')[0].setAttribute('class', 'no-svg');
+    }
+</script>
 </body>
 </html>
