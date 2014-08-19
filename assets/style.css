@@ -126,6 +126,9 @@ h1, h2 {
     display: inline-block;
     width: 60px;
     height: 60px;
+    background: url(../assets/icons.svg);
+}
+.no-svg .lisicon {
     background: url(../assets/icons.png) no-repeat;
 }
 
