@@ -1,0 +1,77 @@
+/*	http://Zhu.li
+	Leigh
+	2010
+*/
+
+body {
+	background: url(bg.jpg) left top #515151 repeat-y;
+	font-family: Arial;
+	overflow: hidden;
+}
+#main {
+	margin: 30px 0 0 30px;
+}
+#main h1 a {
+	color: #fff;
+	width: 400px;
+	height: 74px;
+	font-size: 100px;
+	margin: 0 0 20px;
+	background: url(logo.png) left top no-repeat;
+	text-decoration: none;
+}
+#main .nav {
+	border-top: 1px #6C6C6C solid;
+	width: 400px;
+	padding: 5px 0 0;
+	list-style-type: none;
+	margin: 0;
+}
+#main .nav li {
+	margin: 0 0 30px;
+	padding: 0;
+}
+#main .blog a {
+	font-size: 100px;
+	color: #FFCC06;
+}
+#main .labs a {
+	font-size: 60px;
+	color: #09F;
+}
+#main .shop a {
+	color: #7B7B7B;
+	font-size: 30px;
+}
+#main .nav li a:hover,
+#main .link li a:hover {
+	text-decoration: none;
+}
+#main .socal {
+	border-top: 1px #6C6C6C solid;
+	width: 400px;
+	height: 26px;
+	padding: 2px;
+}
+#main .link {
+	list-style-type: none;
+}
+#main .link li {
+	float: left;
+	position: relative;
+	margin-left: 10px;
+}
+#main .link li a {
+	color: #09f;
+	font-weight: bold;
+}
+
+p.copy {
+	border-top: 1px #6C6C6C solid;
+	padding-top: 5px;
+	font-size: 10px;
+	color: #999;
+	width: 400px;
+	text-align: right;
+	clear: both;
+}

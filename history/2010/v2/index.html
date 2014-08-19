@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head profile="http://gmpg.org/xfn/11"> 
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+	<title>Leigh:Welcome to Zhu.Li!</title> 
+	<style>
+	#loading{
+	font-size:14px;
+	background:#FF00FF;
+	color:#FFFFFF;
+	height:160px;
+	padding:20px 0 5px 9px;
+	position:absolute;
+	top:0;
+	left:0;
+	width:26px;
+	z-index:1;
+	float:left;
+	-moz-border-radius-bottomright:5px;
+	-webkit-border-bottom-right-radius:5px;
+	}
+	#ShowDiv{
+	margin-top:20px;
+	margin-left:200px;
+	}
+	#main{
+	margin-top:120px;
+	margin-left:200px;
+	}
+	</style>
+	<script language='javascript' type='text/javascript'>   
+		var secs =3;  
+		var URL ;   
+		function Load(url){   
+		URL =url;   
+		for(var i=secs;i>=0;i--)   
+		{   
+		window.setTimeout('doUpdate(' + i + ')', (secs-i) * 1000);   
+		}   
+		}   
+		function doUpdate(num)   
+		{   
+		document.getElementById('ShowDiv').innerHTML = '将在'+num+'秒后自动跳转到 Leigh://斯路' ;   
+		if(num == 0) { window.location=URL; }   
+		}   
+	</script>   
+</head>   
+<body>   
+	<div id="loading"> 
+	<script type="text/javascript"> 
+	document.write("正在加载ing...")
+	</script> 
+	</div> 
+	<div id="main">Leigh：感谢您访问 Zhu.Li </div>
+	<div id="ShowDiv"></div>   
+	<script language="javascript">   
+	Load("http://blog.zhuli.me/");
+	</script> 
+	<!-- created@2010.03.20 index for zhu.li -->
+</body> 
+</html> 
+ 
+ 
